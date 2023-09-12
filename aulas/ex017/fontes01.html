@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body{
+           font-family: 'work Sans', Arial, sans-serif;
+           /*medidas Absolutas (1cm é um 1cm)
+            cm, mm, in (polegada), px (mais usada), pt (ponto), pc
+
+           Medidas Relativas
+           em (altura do m maiusculo), ex, rem, Vw, vh, %
+           16px geralmente = 1em (2em= dobro do px, ou seja, 32px)
+           */
+           font-size: 1em;
+           font-weight: 400;
+           font-style: italic;
+           /* lighter normal bord bolder */
+        }
+        h1 {
+            /* shorthand font
+            - fonte-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Verdana', Geneva, Tahoma, sans serif;
+            font-weight: bolder;
+            font-size 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Verdana', Geneva, Tahoma, sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Verdana';  
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error cumque reprehenderit dolore! Amet libero doloribus quaerat repellat esse. Nisi, velit inventore! Sapiente porro architecto natus ipsam laborum pariatur quidem veritatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi neque nostrum ad, omnis, magnam temporibus reiciendis vel molestiae quos deleniti fuga laudantium dolor? Necessitatibus veniam ipsum nisi quidem harum ex?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad molestiae fuga tempore quod dolore, suscipit commodi ullam nesciunt reiciendis fugit animi quia, vitae ipsum asperiores optio vel perspiciatis cupiditate veritatis.</p>
+    <h2>Título do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptates ipsa dicta dolor porro repellat doloremque reiciendis distinctio, quod dolorem asperiores quia quidem sed, sint laboriosam qui consequatur enim temporibus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe eaque eos repudiandae? Maiores minima aliquam in harum itaque, iusto iure. Iste, esse veritatis fugit nam laboriosam dolor ipsam ullam est?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At consequuntur facilis minima tenetur eveniet, deleniti quisquam officiis perspiciatis necessitatibus. Aliquid sequi tempora veniam, facilis tempore ipsa explicabo neque dolorem eaque.</p>
+</body>
+</html>
