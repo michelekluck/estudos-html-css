@@ -23,3 +23,4 @@
 * ex019: seletores personalizados (class e id) utilizando estilo externo
 * 0x020: pseudo-classes e pseudo-elementos. seletores hover, visited
 * ex021: tipos de caixas- box level, inline level. tags: border, padding, margin, header, nav, main, section, article, aside, footer, box-shadow, border-radius
+* ex022: colocando IMAGENS DE FUNDO em um site, usando background-image: url('')
