@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 60px;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+#header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+section > p {
+    font-family: 'Sriracha', cursive;
+    font-size: 28px;
+    padding: 30px;
+    margin-top: 20px;
+    line-height: 50px;
+}
+
+#background001 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+}
+
+.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.326);
+    text-shadow: 1px 1px 0px black;
+    margin: 50px;
+}
+
+
+#background002 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+}
+
+#footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
